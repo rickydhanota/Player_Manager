@@ -23,3 +23,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# For any type of mongoose server selection error on the mongoose.config file, add a "family: 4" to it
+# See below for example of the mongoose.config file
+# mongoose.connect("mongodb://localhost:27017/playerManager", {
+#     useNewUrlParser: true,
+#     useUnifiedTopology: true,
+#     family: 4, //Without this I keep getting the mongoose server selection error
+# })
+# .then(() => {console.log("Established connection to the db, from mongoose.config")})
+# .catch((err) => {console.log(err, "from mongoose.config")});
+
+# see here for a website reference where I found the solution: https://you.com/search?q=const%20serverselectionerror%20%3D%20new%20serverselectionerror%28%29%3B%20%5E%20mongooseserverselectionerror%3A%20connect%20econnrefused%20%3A%3A1%3A27017
