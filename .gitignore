@@ -35,3 +35,14 @@ yarn-error.log*
 # .catch((err) => {console.log(err, "from mongoose.config")});
 
 # see here for a website reference where I found the solution: https://you.com/search?q=const%20serverselectionerror%20%3D%20new%20serverselectionerror%28%29%3B%20%5E%20mongooseserverselectionerror%3A%20connect%20econnrefused%20%3A%3A1%3A27017
+
+
+#Incorporate the following technologies:
+#Docker
+#GraphQL
+#Redux
+#Docker Compose
+
+#What I didnt get to:
+#I didnt finish the login and logout functionality
+#I also was not able to finish the functionality of the buttons under the "Actions" column

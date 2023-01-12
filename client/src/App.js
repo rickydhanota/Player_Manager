@@ -1,10 +1,19 @@
 import './App.css';
-import ManagerForm from './components/ManagerForm';
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import Navbar from './components/Navbar';
+import Dashboard from './components/Dashboard';
+import AddPlayerForm from "./components/AddPlayerForm";
 
 function App() {
   return (
     <div className="app">
-      <ManagerForm />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={ <Dashboard /> } />
+          <Route path = "/addplayer" element ={ < AddPlayerForm /> } />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

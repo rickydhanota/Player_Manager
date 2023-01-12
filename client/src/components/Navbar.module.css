@@ -1,0 +1,50 @@
+.navbar_header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    position: sticky;
+    align-items: center;
+}
+
+.navbar_headerLeft {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.navbar_headerRight {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+
+.listView {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.listView_icon{
+    height: fit-content;
+    padding: 10px;
+}
+
+.addPlayer{
+    display: flex;
+    align-items: center;
+}
+
+.addPlayer_icon{
+    height: fit-content;
+    padding: 10px;
+}
+
+.login_icon{
+    height: fit-content;
+    padding: 10px;
+}
